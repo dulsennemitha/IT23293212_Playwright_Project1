@@ -1,0 +1,354 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "name": "Convert a short response (thanks)",
+    "category": "Positive Functional",
+    "input": "bohooma sthuthiyi.",
+    "expected": "බොහෝම ස්තුතියි.",
+    "justification": "Verifies a common gratitude phrase converts correctly with punctuation.",
+    "covered": "• Greeting / request / response\n• Simple sentence\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "name": "Convert a short response (apology)",
+    "category": "Positive Functional",
+    "input": "samaavenna.",
+    "expected": "සමාවෙන්න.",
+    "justification": "Checks a short apology converts into natural Sinhala spelling.",
+    "covered": "• Greeting / request / response\n• Simple sentence\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "name": "Convert a short daily question",
+    "category": "Positive Functional",
+    "input": "oyaa monavadha karannee?",
+    "expected": "ඔයා මොනවද කරන්නේ?",
+    "justification": "Validates an everyday question form including the question mark.",
+    "covered": "• Daily language usage\n• Interrogative (question)\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "name": "Convert a simple daily sentence",
+    "category": "Positive Functional",
+    "input": "mama gedhara yanavaa.",
+    "expected": "මම ගෙදර යනවා.",
+    "justification": "Baseline sentence to confirm correct word-level transliteration.",
+    "covered": "• Daily language usage\n• Simple sentence\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "name": "Convert a short request (need food)",
+    "category": "Positive Functional",
+    "input": "mata bath oonee.",
+    "expected": "මට බත් ඕනේ.",
+    "justification": "Tests a short need/request sentence with correct case marking.",
+    "covered": "• Daily language usage\n• Simple sentence\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "name": "Convert a compound sentence with conjunction",
+    "category": "Positive Functional",
+    "input": "api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa.",
+    "expected": "අපි කෑම කන්න යනවා සහ පස්සේ චිත්‍රපටයක්ත් බලනවා.",
+    "justification": "Ensures multi-clause output stays accurate with a conjunction.",
+    "covered": "• Daily language usage\n• Compound sentence\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "name": "Convert a complex conditional sentence",
+    "category": "Positive Functional",
+    "input": "oya enavaanam mama balan innavaa.",
+    "expected": "ඔය එනවානම් මම බලන් ඉන්නවා.",
+    "justification": "Checks conditional pattern (…නම්) is formed correctly in Sinhala.",
+    "covered": "• Daily language usage\n• Complex sentence\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "name": "Convert a short request sentence",
+    "category": "Positive Functional",
+    "input": "mata poddak inna.",
+    "expected": "මට පොඩ්ඩක් ඉන්න.",
+    "justification": "Validates a short informal imperative converts without losing meaning.",
+    "covered": "• Word combination / phrase pattern\n• Imperative (command)\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "name": "Convert an imperative command",
+    "category": "Positive Functional",
+    "input": "issarahata yanna.",
+    "expected": "ඉස්සරහට යන්න.",
+    "justification": "Confirms a common command with direction is transliterated correctly.",
+    "covered": "• Daily language usage\n• Imperative (command)\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "name": "Convert a negative sentence form",
+    "category": "Positive Functional",
+    "input": "mama ehema karannee naehae.",
+    "expected": "මම එහෙම කරන්නේ නැහැ.",
+    "justification": "Verifies negation handling (naehae → නැහැ) in a full sentence.",
+    "covered": "• Daily language usage\n• Negation (negative form)\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "name": "Convert a common day-to-day expression",
+    "category": "Positive Functional",
+    "input": "mata nidhimathayi.",
+    "expected": "මට නිදිමතයි.",
+    "justification": "Checks a simple feeling statement produces the expected Sinhala words.",
+    "covered": "• Daily language usage\n• Simple sentence\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "name": "Convert repeated-word emphasis",
+    "category": "Positive Functional",
+    "input": "hari hari!",
+    "expected": "හරි හරි!",
+    "justification": "Ensures repeated-word emphasis is preserved with correct punctuation.",
+    "covered": "• Word combination / phrase pattern\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "name": "Convert past tense sentence",
+    "category": "Positive Functional",
+    "input": "mama iiyee gedhara giyaa.",
+    "expected": "මම ඊයේ ගෙදර ගියා.",
+    "justification": "Past tense with a time word to confirm accurate tense + spelling.",
+    "covered": "• Daily language usage\n• Past tense\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "name": "Convert present tense sentence",
+    "category": "Positive Functional",
+    "input": "mama dhaen vaeda karanavaa.",
+    "expected": "මම දැන් වැඩ කරනවා.",
+    "justification": "Validates a present-tense sentence including the ‘දැන්’ time marker.",
+    "covered": "• Daily language usage\n• Present tense\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "name": "Convert future tense plan",
+    "category": "Positive Functional",
+    "input": "api iiLaGa sathiyee gedhara yamu.",
+    "expected": "අපි ඊළඟ සතියේ ගෙදර යමු.",
+    "justification": "Future plan sentence to verify correct conversion of a schedule phrase.",
+    "covered": "• Daily language usage\n• Future tense\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "name": "Convert plural pronoun variation",
+    "category": "Positive Functional",
+    "input": "oyaalaa enavadha?",
+    "expected": "ඔයාලා එනවද?",
+    "justification": "Confirms plural second-person pronoun (ඔයාලා) conversion works.",
+    "covered": "• Daily language usage\n• Pronoun variation (I/you/we/they)\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "name": "Convert plural form sentence",
+    "category": "Positive Functional",
+    "input": "eyaalaa enavaa.",
+    "expected": "එයාලා එනවා.",
+    "justification": "Checks third-person plural pronoun usage converts to natural Sinhala.",
+    "covered": "• Daily language usage\n• Plural form\n• S (≤30 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "name": "Convert polite request form",
+    "category": "Positive Functional",
+    "input": "karuNaakara eeka dhenavadha?",
+    "expected": "කරුණාකර ඒක දෙනවද?",
+    "justification": "Polite request verifies courtesy word + question form is correct.",
+    "covered": "• Greeting / request / response\n• Interrogative (question)\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "name": "Convert informal request form",
+    "category": "Positive Functional",
+    "input": "anee eeka dhiyan.",
+    "expected": "අනේ ඒක දියන්.",
+    "justification": "Informal/slang request to confirm colloquial phrasing is supported.",
+    "covered": "• Slang / informal language\n• Imperative (command)\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "name": "Convert mixed Singlish + English (technical term)",
+    "category": "Positive Functional",
+    "input": "Zoom meeting ekak thiyennee.",
+    "expected": "Zoom meeting එකක් තියෙන්නේ.",
+    "justification": "Mixed English + Singlish to ensure English terms remain readable.",
+    "covered": "• Mixed Singlish + English\n• Simple sentence\n• M (31–299 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "name": "Convert places + common English words in a sentence",
+    "category": "Positive Functional",
+    "input": "siiyaa Colombo yanna hadhannee.",
+    "expected": "සීයා Colombo යන්න හදන්නේ.",
+    "justification": "Tests place/name token handling inside an otherwise Sinhala sentence.",
+    "covered": "• Names / places / common English words\n• Simple sentence\n• M (31–299 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "name": "Convert abbreviations and short forms",
+    "category": "Positive Functional",
+    "input": "mata OTP eka SMS ekakin evanna.",
+    "expected": "මට OTP එක SMS එකකින් එවන්න.",
+    "justification": "Validates abbreviations (OTP/SMS) are preserved with Sinhala context.",
+    "covered": "• Punctuation / numbers\n• Imperative (command)\n• M (31–299 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "name": "Convert punctuation + currency + time formats",
+    "category": "Positive Functional",
+    "input": "Rs. 5343 dhenna! 7.30 AM ennam.",
+    "expected": "Rs. 5343 දෙන්න! 7.30 AM එන්නම්.",
+    "justification": "Checks numbers, time formats, and punctuation do not break conversion.",
+    "covered": "• Punctuation / numbers\n• Future tense\n• M (31–299 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "name": "Convert multi-line / paragraph-style input (long)",
+    "category": "Positive Functional",
+    "input": "mama gedhara yanavaa. oyaa enavadha maath ekka yanna? api passee kathaa karamu.",
+    "expected": "මම ගෙදර යනවා. ඔයා එනවද මාත් එක්ක යන්න? අපි පස්සෙ කතා කරමු.",
+    "justification": "Multi-sentence paragraph-style input to confirm stable long output.",
+    "covered": "• Multiple sentences (paragraph-like input)\n• Interrogative (question)\n• M (31–299 characters)\n• Accuracy validation",
+    "actual": ""
+  },
+
+  {
+    "id": "Neg_Fun_0001",
+    "name": "Misspelling causes incorrect conversion",
+    "category": "Negative Functional",
+    "input": "mamgedraynava",
+    "expected": "මම ගෙදර යනවා",
+    "justification": "Demonstrates a typo/joined input where the expected correct sentence is not produced.",
+    "covered": "• Typographical error handling\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "name": "Joined words without spaces may reduce accuracy",
+    "category": "Negative Functional",
+    "input": "mamagedharayanavaa",
+    "expected": "මම ගෙදර යනවා",
+    "justification": "Shows loss of accuracy when word boundaries (spaces) are removed.",
+    "covered": "• Formatting (spaces / line breaks / paragraph)\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "name": "Joined request without spaces may reduce accuracy",
+    "category": "Negative Functional",
+    "input": "matapaankannaoonee",
+    "expected": "මට පාන් කන්න ඕනේ",
+    "justification": "Validates failure on a fully joined phrase where segmentation is required.",
+    "covered": "• Formatting (spaces / line breaks / paragraph)\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "name": "Uncommon character combinations may break transliteration",
+    "category": "Negative Functional",
+    "input": "mama sunaQQgu vunee maarga thadhabadhaya nisaa.",
+    "expected": "මම සුණඞ්ගු වුණේ මාර්ග තදබදය නිසා.",
+    "justification": "Uses an invalid character sequence (QQ) that leads to incorrect Sinhala output.",
+    "covered": "• Typographical error handling\n• Complex sentence\n• M (31–299 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "name": "Slang-heavy input may produce unstable output",
+    "category": "Negative Functional",
+    "input": "adoo vaedak baaragaththaanam eeka hariyata karapanko.",
+    "expected": "අඩෝ වැඩක් භාරගත්තානම් ඒක හරියට කරපන්කෝ.",
+    "justification": "Slang-heavy and nonstandard spellings to capture unstable or incorrect conversion.",
+    "covered": "• Slang / informal language\n• Imperative (command)\n• M (31–299 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "name": "English loanword may remain untransliterated",
+    "category": "Negative Functional",
+    "input": "mama coffee bonna yanavaa.",
+    "expected": "මම කෝපි බොන්න යනවා.",
+    "justification": "Expected behavior is to transliterate a common loanword (coffee) into Sinhala; system often leaves it in English.",
+    "covered": "• Mixed Singlish + English\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "name": "Numeric shorthand is not expanded",
+    "category": "Negative Functional",
+    "input": "mata 2k dhenna.",
+    "expected": "මට 2000 දෙන්න.",
+    "justification": "Demonstrates limitation: numeric shorthand (2k) is not interpreted into a full number in Sinhala output.",
+    "covered": "• Punctuation / numbers\n• Imperative (command)\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "name": "Ambiguous sound causes wrong letter (කොල vs කොළ)",
+    "category": "Negative Functional",
+    "input": "mama kola paata kamathi.",
+    "expected": "මම කොළ පාට කැමති.",
+    "justification": "Demonstrates a phonetic ambiguity where the system often outputs ‘කොල’ instead of the correct ‘කොළ’.",
+    "covered": "• Daily language usage\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "name": "Technical terms may remain in English",
+    "category": "Negative Functional",
+    "input": "mama password reset karanna onee.",
+    "expected": "මම පාස්වර්ඩ් රිසෙට් කරන්න ඕනේ.",
+    "justification": "Captures a common failure where English technical terms (password/reset) are not transliterated as expected.",
+    "covered": "• Mixed Singlish + English\n• Simple sentence\n• S (≤30 characters)\n• Robustness validation",
+    "actual": ""
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "name": "Paragraph-length noisy input may degrade conversion",
+    "category": "Negative Functional",
+    "input": "dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva aethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYA bimal rathnaayaka saDHahan kaLeeya.",
+    "expected": "දිත්වා සුළි කුණාටුව සමග ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව ඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන, මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක සඳහන් කළේය.",
+    "justification": "Long noisy text to show the system can produce misspellings or inconsistent Sinhala output.",
+    "covered": "• Formatting (spaces / line breaks / paragraph)\n• Complex sentence\n• L (≥300 characters)\n• Robustness validation",
+    "actual": ""
+  },
+
+  {
+    "id": "Pos_UI_0001",
+    "name": "Sinhala output updates automatically in real-time",
+    "category": "Positive UI",
+    "input": "mama gedhara yanavaa",
+    "expected": "(UI) Output updates while typing",
+    "justification": "Validates the UI updates the Sinhala panel live while typing (no submit action needed).",
+    "covered": "• Daily language usage\n• Simple sentence\n• S (≤30 characters)\n• Real-time output update behavior",
+    "actual": ""
+  }
+]

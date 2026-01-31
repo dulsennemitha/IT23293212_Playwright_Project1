@@ -1,0 +1,21 @@
+{
+  "name": "it23293212-playwright-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "IT23293212 – IT3040 Assignment 1 (Option 1: Singlish → Sinhala) using Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "excel": "node scripts/generate_excel.js",
+    "apply-observed": "node scripts/apply_observed_to_actual.js",
+    "package": "powershell -ExecutionPolicy Bypass -File scripts\\package_submission.ps1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

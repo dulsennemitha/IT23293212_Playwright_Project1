@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "debug": true,
+    "test-results": true,
+    "playwright-report": true
+  },
+  "search.exclude": {
+    "debug": true,
+    "test-results": true,
+    "playwright-report": true
+  },
+  "files.watcherExclude": {
+    "**/debug/**": true,
+    "**/test-results/**": true,
+    "**/playwright-report/**": true
+  },
+  "files.associations": {
+    "**/debug/**/*.html": "plaintext",
+    "**/test-results/**/*.html": "plaintext",
+    "**/playwright-report/**/*.html": "plaintext"
+  },
+  "html.validate.styles": false,
+  "html.validate.scripts": false
+}
